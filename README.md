@@ -10,5 +10,7 @@ To complete this lab you will utilize Db2 database service on IBM Cloud.
 
 ## Three parts to this lab:
 I. Creating tables
+
 II. Loading data into tables
+
 III. Composing and running queries
