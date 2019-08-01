@@ -26,8 +26,8 @@ SELECT F_NAME, L_NAME, DEP_ID
 FROM EMPLOYEES
 ORDER BY DEP_ID;
 
--- Query 4B: Retrieve a list of employees ordered in descending order by department ID and within each department ordered alphabetically in 
--- descending order by last name.
+-- Query 4B: Retrieve a list of employees ordered in descending order by department ID and within each department ordered 
+-- alphabetically in descending order by last name.
 
 SELECT F_NAME, L_NAME, DEP_ID
 FROM EMPLOYEES
@@ -66,8 +66,8 @@ GROUP BY DEP_ID
 HAVING count(*) < 4
 ORDER BY AVG_SALARY;
 
--- Query 6: Similar to 4B but instead of department ID use department name. Retrieve a list of employees ordered by department name, and within each 
--- department ordered alphabetically in descending order by last name.
+-- Query 6: Similar to 4B but instead of department ID use department name. Retrieve a list of employees ordered by department name, 
+-- and within each department ordered alphabetically in descending order by last name.
 
 SELECT D.DEP_NAME , E.F_NAME, E.L_NAME
 FROM EMPLOYEES AS E, DEPARTMENTS AS D
